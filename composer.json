@@ -1,6 +1,6 @@
 {
     "name": "phalconfans/helpers",
-    "description": "helpers is a helper for phalcon project.",
+    "description": "PhalconFans Helpers is a helper function collection for phalcon project.",
     "homepage": "https://github.com/phalconfans/helpers",
     "type": "library",
     "keywords": [
