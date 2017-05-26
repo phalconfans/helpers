@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=5.2.1",
-        "ext-phalcon": ">=2.0"
+        "ext-phalcon": ">=2.0",
+        "vlucas/phpdotenv": "^2.4"
     },
     "require-dev": {},
     "license": "GPL v2",
