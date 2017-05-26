@@ -7,9 +7,11 @@ Run:
 
 composer require phalconfans/helpers
 
-Composer.json
+or modify Composer.json
 
-"phalconfans/helpers": "~0.0.6",
+"phalconfans/helpers": "~0.0.6"
+
+than composer update
 
 Edit your bootrap_cli.php or bootstrap_web.php, like this 
 
