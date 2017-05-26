@@ -1,15 +1,16 @@
 {
     "name": "phalconfans/helpers",
-    "description": "phalconfans/helpers is a helpers for phalcon project.",
+    "description": "helpers is a helper for phalcon project.",
+    "homepage": "https://github.com/phalconfans/helpers",
+    "type": "project",
     "keywords": [
-        "loserhub",
-        "website",
-        "bootstrap",
+        "phalconfans",
+        "helpers",
         "phalcon",
         "php7"
     ],
     "require": {
-        "ext-phalcon": "^3.1"
+        "ext-phalcon": "^3.0"
     },
     "require-dev": {
         "phalcon/devtools": "^3.1",
@@ -32,8 +33,8 @@
             "homepage": "http://www.jicker.cn"
         },
         {
-            "name": "StarMigration Group",
-            "homepage": "https://www.qm2014.com"
+            "name": "PhalconFans Club",
+            "homepage": "https://github.com/phalconfans"
         }
     ],
     "autoload": {
