@@ -14,10 +14,13 @@ Composer.json
 Edit your bootrap_cli.php or bootstrap_web.php, like this 
 
 use Dotenv\Dotenv;
+
 use PhalconFans\Helpers;
 
 $di['env'] = function () {
+
     return new Dotenv(BASE_PATH);
+    
 };
 
 $di['env']->load();
