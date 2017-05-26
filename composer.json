@@ -1,0 +1,74 @@
+{
+    "name": "phalconfans/helpers",
+    "description": "phalconfans/helpers is a helpers for phalcon project.",
+    "keywords": [
+        "loserhub",
+        "website",
+        "bootstrap",
+        "phalcon",
+        "php7"
+    ],
+    "require": {
+        "ext-phalcon": "^3.1"
+    },
+    "require-dev": {
+        "phalcon/devtools": "^3.1",
+        "phalcon/dd": "^1",
+        "fzaninotto/faker": "^1.6",
+        "phpunit/phpunit": "5.*",
+        "phpunit/dbunit": "2.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "codeception/codeception": "2.2.*",
+        "codeception/specify": "~0.3",
+        "Mockery/Mockery": "^0.9.9",
+        "phpdocumentor/reflection-docblock": "3.1.*",
+        "almasaeed2010/adminlte": "2.*",
+        "fabfuel/prophiler": "~1.0"
+    },
+    "license": "GPL v2",
+    "authors": [{
+            "name": "Frank Kennedy Yuan",
+            "email": "kideny@gmail.com",
+            "homepage": "http://www.jicker.cn"
+        },
+        {
+            "name": "StarMigration Group",
+            "homepage": "https://www.qm2014.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phalcon\\Test\\Unit\\": "tests/unit/",
+            "Phalcon\\Test\\Integration\\": "tests/integration/",
+            "Phalcon\\Test\\Proxy\\": "tests/_proxies/",
+            "Phalcon\\Test\\Module\\": "tests/_support/Module/",
+            "Phalcon\\Test\\Mvc\\": "tests/unit/Mvc/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/phalcon/cphalcon/issues",
+        "source": "https://github.com/phalcon/cphalcon",
+        "forum": "https://forum.phalconphp.com/",
+        "docs": "http://docs.phalconphp.com/",
+        "wiki": "https://github.com/phalcon/cphalcon/wiki",
+        "irc": "irc://irc.freenode.org/phalconphp",
+        "rss": "https://blog.phalconphp.com/rss"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
