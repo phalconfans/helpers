@@ -9,7 +9,7 @@ composer require phalconfans/helpers
 
 Composer.json
 
-"phalconfans/helpers": "~0.0.4",
+"phalconfans/helpers": "~0.0.5",
 
 Edit your bootrap_cli.php or bootstrap_web.php, like this 
 
@@ -20,7 +20,7 @@ use PhalconFans\Helpers;
 $di['env'] = function () {
 
     return new Dotenv(BASE_PATH);
-    
+
 };
 
 $di['env']->load();
