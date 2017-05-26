@@ -2,7 +2,7 @@
     "name": "phalconfans/helpers",
     "description": "helpers is a helper for phalcon project.",
     "homepage": "https://github.com/phalconfans/helpers",
-    "type": "project",
+    "type": "library",
     "keywords": [
         "phalconfans",
         "helpers",
@@ -10,7 +10,8 @@
         "php7"
     ],
     "require": {
-        "ext-phalcon": "^3.0"
+        "php": ">=5.2.1",
+        "ext-phalcon": ">=2.0"
     },
     "require-dev": {
         "phalcon/devtools": "^3.1",
