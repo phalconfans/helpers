@@ -39,7 +39,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {}
+        "psr-4": {
+            "PhalconFans\\": "src/PhalconFans/"
+        }
     },
     "autoload-dev": {
         "psr-4": {
