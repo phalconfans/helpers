@@ -26,6 +26,9 @@
         }
     ],
     "autoload": {
+        "files": [
+            "src/PhalconFans/helpers.php"
+        ],
         "psr-4": {
             "PhalconFans\\": "src/PhalconFans/"
         }
