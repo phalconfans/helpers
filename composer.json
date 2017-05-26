@@ -13,20 +13,7 @@
         "php": ">=5.2.1",
         "ext-phalcon": ">=2.0"
     },
-    "require-dev": {
-        "phalcon/devtools": "^3.1",
-        "phalcon/dd": "^1",
-        "fzaninotto/faker": "^1.6",
-        "phpunit/phpunit": "5.*",
-        "phpunit/dbunit": "2.*",
-        "squizlabs/php_codesniffer": "2.*",
-        "codeception/codeception": "2.2.*",
-        "codeception/specify": "~0.3",
-        "Mockery/Mockery": "^0.9.9",
-        "phpdocumentor/reflection-docblock": "3.1.*",
-        "almasaeed2010/adminlte": "2.*",
-        "fabfuel/prophiler": "~1.0"
-    },
+    "require-dev": {},
     "license": "GPL v2",
     "authors": [{
             "name": "Frank Kennedy Yuan",
