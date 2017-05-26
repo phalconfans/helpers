@@ -1,4 +1,4 @@
-helpers
+PhalconFans/Helpers
 
 This package will add the helper functions to your Phalcon application.
 Install
@@ -9,7 +9,7 @@ composer require phalconfans/helpers
 
 Composer.json
 
-"phalconfans/helpers": "~0.0.5",
+"phalconfans/helpers": "~0.0.6",
 
 Edit your bootrap_cli.php or bootstrap_web.php, like this 
 
