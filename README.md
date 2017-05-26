@@ -7,6 +7,10 @@ Run:
 
 composer require phalconfans/helpers
 
+Composer.json
+
+"phalconfans/helpers": "~0.0.4",
+
 Copyright
 
 This project is open source software licensed under the New BSD License. See the LICENSE file for more.
